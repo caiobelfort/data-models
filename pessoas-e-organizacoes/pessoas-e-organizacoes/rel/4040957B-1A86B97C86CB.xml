@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="4040957B-8E8F-1F4F-F9A1-1A86B97C86CB" mainViewID="80AC8B48-4F1E-00A0-0CF0-C1F116BDEB88">
+<createdBy>caiob</createdBy>
+<createdTime>2020-08-29 13:26:04 UTC</createdTime>
+<ownerDesignName>pessoas-e-organizacoes</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

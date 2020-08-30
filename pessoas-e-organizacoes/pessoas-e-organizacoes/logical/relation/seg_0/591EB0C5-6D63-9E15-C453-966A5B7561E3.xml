@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relation_partido_classificacao" directorySegmentName="seg_0" id="591EB0C5-6D63-9E15-C453-966A5B7561E3">
+<createdBy>caiob</createdBy>
+<createdTime>2020-08-29 15:26:03 UTC</createdTime>
+<ownerDesignName>pessoas-e-organizacoes</ownerDesignName>
+<engineerTo>
+<item key="4040957B-8E8F-1F4F-F9A1-1A86B97C86CB" value="true"/>
+</engineerTo>
+<sourcePk>867BE6CE-0DCE-15D5-FDF3-7E3D322209D4</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Classificado em</nameOnSource>
+<nameOnTarget>para</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B28A497F-0FCA-4F10-DC8C-ED278681DB70</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BF33574A-5560-BFCA-B9B6-E50590D1DC84</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

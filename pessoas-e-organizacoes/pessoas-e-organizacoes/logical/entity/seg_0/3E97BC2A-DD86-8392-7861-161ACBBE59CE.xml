@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E97BC2A-DD86-8392-7861-161ACBBE59CE" name="Classificação de Organização">
+<createdBy>caiob</createdBy>
+<createdTime>2020-08-29 15:28:41 UTC</createdTime>
+<ownerDesignName>pessoas-e-organizacoes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4040957B-8E8F-1F4F-F9A1-1A86B97C86CB" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>BF33574A-5560-BFCA-B9B6-E50590D1DC84</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

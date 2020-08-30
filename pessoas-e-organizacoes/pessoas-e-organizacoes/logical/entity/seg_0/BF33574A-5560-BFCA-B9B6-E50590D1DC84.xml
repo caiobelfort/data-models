@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF33574A-5560-BFCA-B9B6-E50590D1DC84" name="Classificação de Partido">
+<createdBy>caiob</createdBy>
+<createdTime>2020-08-29 15:24:11 UTC</createdTime>
+<ownerDesignName>pessoas-e-organizacoes</ownerDesignName>
+<engineerTo>
+<item key="4040957B-8E8F-1F4F-F9A1-1A86B97C86CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Data  de Início" id="0941FB4B-DC73-43A1-282F-75E2C4AF8809">
+<createdBy>caiob</createdBy>
+<createdTime>2020-08-29 15:29:27 UTC</createdTime>
+<ownerDesignName>pessoas-e-organizacoes</ownerDesignName>
+<engineerTo>
+<item key="4040957B-8E8F-1F4F-F9A1-1A86B97C86CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data de Término" id="C36377D6-867D-430B-CC65-8CC6DCF0AA8A">
+<createdBy>caiob</createdBy>
+<createdTime>2020-08-29 15:29:55 UTC</createdTime>
+<ownerDesignName>pessoas-e-organizacoes</ownerDesignName>
+<engineerTo>
+<item key="4040957B-8E8F-1F4F-F9A1-1A86B97C86CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Tipo Partido" id="8FE96DA1-937D-8EA0-21BA-7A0BFBDCFC57">
+<createdBy>caiob</createdBy>
+<createdTime>2020-08-29 15:50:55 UTC</createdTime>
+<generatorID>1BD5E785-D4F4-25FB-A339-96394E07D7EE</generatorID>
+<ownerDesignName>pessoas-e-organizacoes</ownerDesignName>
+<engineerTo>
+<item key="4040957B-8E8F-1F4F-F9A1-1A86B97C86CB" value="true"/>
+</engineerTo>
+<referedAttribute>3C5E27C9-4B25-9A22-E86F-D5A3C75D2D23</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Partido1" id="96C0CDE6-8849-2C8D-6A88-A1CB04CF7E1E">
+<createdBy>caiob</createdBy>
+<createdTime>2020-08-29 15:51:47 UTC</createdTime>
+<generatorID>591EB0C5-6D63-9E15-C453-966A5B7561E3</generatorID>
+<ownerDesignName>pessoas-e-organizacoes</ownerDesignName>
+<engineerTo>
+<item key="4040957B-8E8F-1F4F-F9A1-1A86B97C86CB" value="true"/>
+</engineerTo>
+<referedAttribute>F214B976-6D49-DEB1-E35A-6861B117FAED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="814AEAB3-8C42-F68F-5E5F-D501E1458451" name="Classificação de Partido PK">
+<createdBy>caiob</createdBy>
+<createdTime>2020-08-29 15:51:24 UTC</createdTime>
+<ownerDesignName>pessoas-e-organizacoes</ownerDesignName>
+<engineerTo>
+<item key="4040957B-8E8F-1F4F-F9A1-1A86B97C86CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0941FB4B-DC73-43A1-282F-75E2C4AF8809</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
